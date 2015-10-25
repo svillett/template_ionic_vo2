@@ -1,5 +1,10 @@
 # template_ionic_vo2
+
 Template app ionic created from https://apps.ionic.io/apps
+
+**Ionic Documentation Overview**
+
+http://ionicframework.com/docs/overview/
 
 *Useful commands (see http://gonehybrid.com/build-your-first-mobile-app-with-the-ionic-framework-part-4/ for full explanation)*
 

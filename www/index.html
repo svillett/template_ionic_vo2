@@ -3,19 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
-
-    <style>
-      .angular-google-map-container {
-          width: 100%;
-          height: 504px;
-      }
-    </style>
+    
+    <title>Template App Ionic with Firebase</title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Firebase library -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
@@ -29,13 +26,14 @@
 
   </head>
   <body ng-app="app" animation="slide-left-right-ios7">
-  <div>
     <div>
+      <div>
         <ion-nav-bar class="bar-stable">
-            <ion-nav-back-button class="button-icon icon ion-ios-arrow-back">Back</ion-nav-back-button>
+          <ion-nav-back-button class="button-icon ion-chevron-left">
         </ion-nav-bar>
-        <ion-nav-view></ion-nav-view>
+        <ion-nav-view class="background">
+        </ion-nav-view>
+      </div>
     </div>
-</div>
   </body>
 </html>

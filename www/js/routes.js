@@ -7,8 +7,6 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-      
         
     .state('login', {
       url: '/page1',
@@ -16,19 +14,11 @@ angular.module('app.routes', [])
       controller: 'loginCtrl'
     })
         
-      
-    
-      
-        
     .state('signup', {
       url: '/page2',
       templateUrl: 'templates/signup.html',
       controller: 'signupCtrl'
     })
-        
-      
-    
-      
         
     .state('tabsController.cameraTabDefaultPage', {
       url: '/page4',
@@ -40,10 +30,6 @@ angular.module('app.routes', [])
       }
     })
         
-      
-    
-      
-        
     .state('tabsController.cartTabDefaultPage', {
       url: '/page5',
       views: {
@@ -53,10 +39,6 @@ angular.module('app.routes', [])
         }
       }
     })
-        
-      
-    
-      
         
     .state('tabsController.cloudTabDefaultPage', {
       url: '/page6',
@@ -68,9 +50,6 @@ angular.module('app.routes', [])
       }
     })
         
-      
-    
-      
     .state('tabsController', {
       url: '/page3',
       abstract:true,
